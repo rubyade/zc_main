@@ -9,6 +9,7 @@ import axios from 'axios'
 import { GetUserInfo } from '../../zuri-control'
 import $behaviorSubject from '../../../../globalState'
 import { Helmet } from 'react-helmet'
+
 // import { Link } from 'react-router-dom'
 // import authBg1 from './assets/auth_bg1.svg'
 // import authBg2 from './assets/auth_bg2.svg'
@@ -16,6 +17,7 @@ import { Helmet } from 'react-helmet'
 // import authBg4 from './assets/auth_bg4.svg'
 // import authBg5 from './assets/auth_bg5.svg'
 //import GoogleLogin from 'react-google-login'
+
 const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -29,6 +31,7 @@ const Login = () => {
   // const [currentImage, setcurrentImage] = useState(
   //   Math.floor(Math.random() * 4)
   // )
+
   // To Display Random Aside Background Image
   // const displayImage = () => {
   //   let i = currentImage
